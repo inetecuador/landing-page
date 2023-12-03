@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    #logoId {
+        display: none;
+    }
+    #mobileLogoId {
+        display: block;
+    }
+    .login {
+        display: none;
+    }
+
+    .menu a, .menu div {
+        display: none;
+    }
+}
