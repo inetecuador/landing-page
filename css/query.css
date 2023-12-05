@@ -12,4 +12,65 @@
     .menu a, .menu div {
         display: none;
     }
+
+    main > img {
+        object-position: center;
+    }
+
+
+    /**/
+
+    /**/
+    .properties {
+        grid-template-columns: 1fr;
+        margin-top: 2px;
+    }
+
+    .prevButtonClass, .nextButtonClass {
+        display: none;
+    }
+
+    .saleRight, .rentLeft {
+        text-align: left;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .midButtonClass {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        padding: 5px;
+        color: #DF991B;
+    }
+
+    .buttonNavClass {
+        display: flex;
+        justify-content: left;
+        margin-top: 10px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .saleLeft {
+        order: 2;
+    }
+
+    .developmets {
+        grid-template-columns: 1fr;
+    }
+
+    .properties {
+        margin-top: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .servicesLeft {
+        order: 1;
+    }
+
+
 }
+
