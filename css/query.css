@@ -71,6 +71,9 @@
         order: 1;
     }
 
+    .verticalFollowClass {
+        display: none;
+    }
 
 }
 

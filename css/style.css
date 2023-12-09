@@ -363,3 +363,76 @@ h6 {
     grid-template-columns: repeat(4, 1fr);
     color: white;
 }
+
+/*viernes 8 12 2023*/
+/*verticalFollowClass*/
+.verticalFollowClass {
+    position: absolute;
+    z-index: 999;
+    height: auto;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    top: 100px;
+}
+
+.verticalFollowClass p {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: grey;
+    line-height: 1px;
+    width: 25%;
+    height: auto;
+    transform: rotate(90deg);
+    font-size: 15px;
+
+}
+
+.verticalFollowClass .verticalLineClass {
+    height: 35px;
+    border-left: 2px solid #7E7E7E;
+    margin-top: 60px;
+}
+
+.verticalFollowClass .socialClass {
+    height: 14px;
+    width: 14px;
+}
+
+.realEstateContainer {
+    
+    width: 500px;
+    position:absolute;
+    /* background-color: blue; */
+    display: flex;
+    left: 4px;
+    color: white;
+    /* right: 150px; */
+    /* float: right; */
+
+    /* flex-direction: ; */
+    /* justify-content: flex-end; */
+}
+
+.luxuryContainer {
+    position:absolute;
+    top: 175px;
+    left: 100px;
+}
+
+h1  {
+    font-size: 45px;
+}
+
+.realEstateButtonClass {
+    margin-top: 40px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-size: 15px;
+    color:white;
+}
