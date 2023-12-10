@@ -192,3 +192,85 @@
     background: #000000;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+footer {
+    background-color: black;
+    width: 100vw;
+    padding: 0 50px;
+    display: grid;
+    justify-content: center;
+
+    position: relative;
+    margin-top: 240px;
+}
+
+h6 {
+    color: white;
+    font-size: 30px;
+}
+
+.news {
+    gap: 16px;
+    background-color: #26282B;
+    display: flex;
+    gap: 16px;
+    padding: 20px 50px;
+    transform: translate(0, -50%);
+}
+
+.footerForm {
+    /* display: flex;
+    direction: column; */
+    display: grid;
+    gap: 15px;
+}
+
+.footerForm input {
+    background-color: transparent;
+    border: solid 1px grey;
+    border-radius: 50px;
+    padding: 11px 24px;
+    width: 100%;
+}
+
+.footerForm button{
+    background-color: transparent;
+    border: solid 1px #DF991B;
+    border-radius: 50px;
+    padding: 11px 24px;
+    width: fit-content;
+    color: #DF991B;
+    justify-self: end;
+}
+
+.footerForm button:hover{
+    background-color: white;
+    color: #26282B;
+    border: solid 1px #26282B;
+}
+
+.emailSpan {
+    color: white;
+}
+
+/* footer-text  */
+.footerInfo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+}

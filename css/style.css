@@ -270,8 +270,9 @@ h5 {
 .salaClass {
     width: 450px;
     height: 400px;
-    position: absolute;
+    position: relative;
     transform: translate(15%,10%);
+    z-index: 1;
 }
 
 .imgSalaClass {
@@ -296,73 +297,6 @@ h5 {
     
 }
 
-/*Footer*/
-footer {
-    background-color: black;
-    width: 100vw;
-    padding: 0 50px;
-    display: grid;
-    justify-content: center;
-
-    position: relative;
-    margin-top: 240px;
-}
-
-h6 {
-    color: white;
-    font-size: 30px;
-}
-
-.news {
-    gap: 16px;
-    background-color: #26282B;
-    display: flex;
-    gap: 16px;
-    padding: 20px 50px;
-    transform: translate(0, -50%);
-}
-
-.footerForm {
-    /* display: flex;
-    direction: column; */
-    display: grid;
-    gap: 15px;
-}
-
-.footerForm input {
-    background-color: transparent;
-    border: solid 1px grey;
-    border-radius: 50px;
-    padding: 11px 24px;
-    width: 100%;
-}
-
-.footerForm button{
-    background-color: transparent;
-    border: solid 1px #DF991B;
-    border-radius: 50px;
-    padding: 11px 24px;
-    width: fit-content;
-    color: #DF991B;
-    justify-self: end;
-}
-
-.footerForm button:hover{
-    background-color: white;
-    color: #26282B;
-    border: solid 1px #26282B;
-}
-
-.emailSpan {
-    color: white;
-}
-
-/* footer-text  */
-.footerInfo {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    color: white;
-}
 
 /*viernes 8 12 2023*/
 /*verticalFollowClass*/
@@ -435,4 +369,95 @@ h1  {
     cursor: pointer;
     font-size: 15px;
     color:white;
+}
+
+/*footer*/
+.submitEmail {
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: #464547;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 1/3;
+    grid-column: 1/3;
+    z-index: 999;
+    padding: 20px 60px;
+    gap: 20px;
+    grid-template-rows: auto 1fr;
+    transform: translate(0, 50%);
+}
+
+.infoFooter {
+    background-color: black;
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.footerText{
+    display:block;
+    margin: 20px 3px;
+    color: #464547;
+}
+.section4{
+    text-align: right;
+    align-items: right;
+}
+.section4 p{
+    color: white;
+}
+.section4 h5{
+    text-align: right;
+}
+.section3, .section2{
+    text-align: center;
+}
+.emailRight{
+    margin-left: 3%;
+}
+.emailRight input, span{
+    display: block;
+}
+.emailRight input{
+    background-color: transparent;
+    height:45px;
+    width: 100%;
+    border: #7E7E7E solid 1px;
+    border-radius: 50px;
+    /* color: white; */
+    padding: 1px 24px;
+    margin-bottom: 20px;
+}
+.emailLeft h2{
+    color: white;
+}
+.emailLeft h3{
+    margin-bottom:20px ;
+}
+.emailRight span{
+    color: white;
+    margin-bottom: 20px;
+}
+.emailRight button{
+    background-color: transparent;
+    border: solid 1px #DF991B;
+    border-radius: 50px;
+    padding: 11px 24px;
+    width: 100%;
+    color: #DF991B;
+    
+}
+.buttonContainer{
+    padding-left: 60%;
+}
+.copyright{
+    background-color: black;
+    transform: translate(0, -100%);
+    color: white;
+    text-align: center;
+    width: 100%;
+
 }

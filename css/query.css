@@ -75,5 +75,39 @@
         display: none;
     }
 
+    .lineaContainer {
+        display: none;
+    }
+
+    .salaClass {
+        width: 450px;
+        height: 400px;
+        position: absolute;
+        transform: translate(-8%,-110%);
+    }
+    .submitEmail, .infoFooter {
+        transform: translate(0%,0%);
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .submitEmail{
+        margin-top: 550px;
+    }
+    .infoFooter{
+        padding-top: 40px;
+    }
+    .section2, .section3, .section4{
+        text-align: left;
+    }
+    .section4 h5{
+        text-align: left;
+        margin-left: 0;
+    }
+    .copyright{
+        width: 100%;
+    
+    }
 }
 
